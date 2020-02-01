@@ -3,11 +3,9 @@ channels:
 dependencies:
   - intake
   - intake-xarray
-  - pip
-  - pip:
-    - git+https://github.com/ajelenak/xarray.git@zarr-chunkstore
-    - git+https://github.com/HDFGroup/zarr-python.git@hdf5
   - fsspec
+  - s3fs
+  - h5py
   - h5netcdf
   - matplotlib
   - holoviews
@@ -17,3 +15,7 @@ dependencies:
   - panel
   - requests
   - pandas
+  - pip
+  - pip:
+    - git+https://github.com/ajelenak/xarray.git@zarr-chunkstore
+    - git+https://github.com/HDFGroup/zarr-python.git@hdf5
