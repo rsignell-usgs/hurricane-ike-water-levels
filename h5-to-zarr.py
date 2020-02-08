@@ -238,7 +238,7 @@ if __name__ == '__main__':
     with fsspec.open('s3://pangeo-data-uswest2/esip/adcirc/adcirc_01d.nc',
                      mode='rb', anon=False, requester_pays=True,
                      default_fill_cache=False) as f:
-        store = zarr.DirectoryStore('../adcirc_01d.nc.chunkstore')
+        store = zarr.DirectoryStore('./chunkstore')
         h5chunks = Hdf5ToZarr(f, store, xarray=True)
         h5chunks.translate()
 
