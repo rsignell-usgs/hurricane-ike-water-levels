@@ -1,5 +1,5 @@
 # Hurricane Ike Water Levels
 
 ### Run on Pangeo Binder
-[![badge](https://img.shields.io/static/v1.svg?logo=Jupyter&label=Pangeo+Binder&message=AWS+us-west-2&color=green)](https://aws-uswest2-binder.pangeo.io/v2/gh/reproducible-notebooks/hurricane-ike-water-levels/master?filepath=hurricane_ike_water_levels.ipynb)
+[![Binder](https://aws-uswest2-binder.pangeo.io/badge_logo.svg)](https://aws-uswest2-binder.pangeo.io/v2/gh/rsignell-usgs/hurricane-ike-water-levels.git/zarr-hdf5?urlpath=https://github.com/rsignell-usgs/hurricane-ike-water-levels)
 
