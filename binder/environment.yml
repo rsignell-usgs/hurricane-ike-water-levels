@@ -16,7 +16,8 @@ dependencies:
   - requests
   - pandas
   - nbgitpuller
-  - dask=2.9
+  - msgpack-python=0.6.2
+  - dask
   - pip
   - pip:
     - git+https://github.com/ajelenak/xarray.git@zarr-chunkstore
