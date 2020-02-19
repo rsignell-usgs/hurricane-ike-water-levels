@@ -1,0 +1,23 @@
+channels:
+  - conda-forge
+dependencies:
+  - intake
+  - intake-xarray
+  - fsspec
+  - s3fs
+  - conda-forge/label/h5py_dev::h5py
+  - h5netcdf
+  - matplotlib
+  - holoviews
+  - geoviews
+  - datashader
+  - hvplot
+  - panel
+  - requests
+  - pandas
+  - nbgitpuller
+  - dask=2.9
+  - pip
+  - pip:
+    - git+https://github.com/ajelenak/xarray.git@zarr-chunkstore
+    - git+https://github.com/HDFGroup/zarr-python.git@hdf5
