@@ -11,13 +11,13 @@ dependencies:
   - holoviews
   - geoviews
   - datashader
+  - dask
+  - distributed
   - hvplot
   - panel
   - requests
   - pandas
   - nbgitpuller
-  - msgpack-python=0.6.2
-  - dask
   - pip
   - pip:
     - git+https://github.com/ajelenak/xarray.git@zarr-chunkstore
