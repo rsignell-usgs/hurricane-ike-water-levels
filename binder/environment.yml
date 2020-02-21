@@ -1,17 +1,97 @@
 channels:
   - conda-forge
 dependencies:
-  - intake
-  - intake-xarray
-  - xarray
-  - zarr
-  - fsspec
-  - h5netcdf
+  - jupyterlab
+  - jupyterhub
+  - jupyter-server-proxy
+  - nbgitpuller
+  - dask
+  - distributed
+  - dask-kubernetes
+  - dask-labextension
+  - dask-gateway
+  - tornado
+  - bokeh
+  - python-graphviz
+  # text editors
+  - emacs
+  # core scipy
+  - numpy
+  - scipy
   - matplotlib
+  - pandas
+  - xarray
+  - python-gist
+  - fastparquet
+  # data science stuff
+  - scikit-image
+  - scikit-learn
+  - dask-ml
+  - pytorch-cpu
+  # pyviz
+  - hvplot
   - holoviews
   - geoviews
-  - datashader
-  - hvplot
   - panel
+  - datashader
+  # geospatial
+  - iris
+  - cartopy
+  - geopandas
+  - descartes
+  - sat-search
+  - sat-stac
+  - rasterio
+  - regionmask
+  - rio-cogeo
+  - rioxarray
+  - netcdf4
+  - h5py
+  - h5netcdf
+  - folium
+  - mapboxgl
+  - shapely
   - requests
-  - pandas
+  - pillow
+  # ocean/atmos stuff
+  - erddapy
+  - siphon
+  - utide
+  - pocean-core
+  - owslib
+  - ioos-tools
+  - geolinks
+  - cftime
+  - pyoos
+  - timeout-decorator
+  # geoscience-related
+  - climlab
+  - metpy
+  - satpy
+  - gsw
+  - eofs
+  - esmpy
+  - xesmf
+  - windspharm
+  # intake-related
+  - intake
+  - intake-xarray
+  - intake-esm
+  - intake-stac
+  # zarr-related
+  - zarr
+  - numcodecs
+  - python-blosc
+  - lz4
+  - gcsfs
+  - s3fs
+  - fsspec
+  # jupyter-related
+  - ipyleaflet
+  - nb_conda_kernels
+  # xarray-related
+  - xgcm
+  - xrft
+  - pip
+  - pip:
+    - git+https://github.com/HDFGroup/h5pyd.git
