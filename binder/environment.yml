@@ -1,8 +1,9 @@
 channels:
   - conda-forge
 dependencies:
-  - intake
-  - intake-xarray
+  - python=3.7*
+  - pangeo-notebook=2020.05.10
+  - pip=20
   - fsspec
   - s3fs
   - conda-forge/label/h5py_dev::h5py
@@ -11,14 +12,11 @@ dependencies:
   - holoviews
   - geoviews
   - datashader
-  - dask
-  - distributed
   - hvplot
   - panel
   - requests
   - pandas
   - nbgitpuller
-  - pip
   - pip:
     - git+https://github.com/pydata/xarray.git
     - git+https://github.com/HDFGroup/zarr-python.git@hdf5
