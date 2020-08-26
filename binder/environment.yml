@@ -20,5 +20,5 @@ dependencies:
   - nbgitpuller
   - pip
   - pip:
-    - git+https://github.com/ajelenak/xarray.git@zarr-chunkstore
-    - git+https://github.com/HDFGroup/zarr-python.git@hdf5
+    - git+https://github.com/pydata/xarray.git
+    - git+https://github.com/zarr-developers/zarr-python.git
