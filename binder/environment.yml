@@ -10,13 +10,10 @@ dependencies:
   - h5netcdf
   - matplotlib
   - holoviews
-  - geoviews
+  - geoviews-core
+  - pandas
   - datashader
   - hvplot
-  - panel
-  - requests
-  - pandas
-  - nbgitpuller
   - pip:
     - git+https://github.com/pydata/xarray.git
     - git+https://github.com/HDFGroup/zarr-python.git@hdf5
