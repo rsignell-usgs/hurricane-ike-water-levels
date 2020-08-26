@@ -21,4 +21,4 @@ dependencies:
   - pip
   - pip:
     - git+https://github.com/pydata/xarray.git
-    - git+https://github.com/zarr-developers/zarr-python.git
+    - git+https://github.com/HDFGroup/zarr-python.git@hdf5
