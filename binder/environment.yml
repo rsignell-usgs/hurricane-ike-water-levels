@@ -17,4 +17,4 @@ dependencies:
   - panel
   - pip:
     - git+https://github.com/pydata/xarray.git
-    - git+https://github.com/HDFGroup/zarr-python.git@hdf5
+    - git+https://github.com/HDFGroup/zarr-python.git@8f9c2fac
