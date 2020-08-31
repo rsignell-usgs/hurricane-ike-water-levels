@@ -1,0 +1,17 @@
+channels:
+  - conda-forge
+dependencies:
+  - python=3.7*
+  - pangeo-notebook=2020.08.24
+  - pip=20
+  - fsspec
+  - s3fs
+  - conda-forge/label/h5py_dev::h5py
+  - h5netcdf
+  - matplotlib
+  - holoviews
+  - geoviews-core
+  - pandas
+  - datashader
+  - hvplot
+  - panel

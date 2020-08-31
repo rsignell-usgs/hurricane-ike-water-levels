@@ -1,0 +1,13 @@
+#!/bin/bash
+set -euo pipefail
+
+# nbgitpuller
+jupyter serverextension enable --py nbgitpuller --sys-prefix
+
+# labextensions
+jupyter labextension install @pyviz/jupyterlab_pyviz \
+                             jupyter-leaflet
+
+# pip packages
+python -m pip install https://github.com/pydata/xarray/archive/385dc15e75c80984bc4398c52a2d42ac3333fcc2.tar.gz
+python -m pip install -e git+https://github.com/HDFGroup/zarr-python.git@hdf5#egg=zarr
