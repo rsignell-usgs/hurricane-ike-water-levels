@@ -9,5 +9,12 @@ jupyter labextension install @pyviz/jupyterlab_pyviz \
                              jupyter-leaflet
 
 # pip packages
+# dev h5py
+conda remove --force h5py
+HDF5_DIR=$CONDA_PREFIX python -m pip install https://github.com/h5py/h5py/archive/fdc92a50173c732efcbfdb82e1432df4138729f5.tar.gz
+
+# dev xarray
 python -m pip install https://github.com/pydata/xarray/archive/385dc15e75c80984bc4398c52a2d42ac3333fcc2.tar.gz
+
+# dev/branch zarr-python
 python -m pip install git+https://github.com/HDFGroup/zarr-python.git@hdf5#egg=zarr

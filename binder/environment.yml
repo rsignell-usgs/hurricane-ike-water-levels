@@ -6,7 +6,6 @@ dependencies:
   - pip=20
   - fsspec
   - s3fs
-  - conda-forge/label/h5py_dev::h5py
   - h5netcdf
   - matplotlib
   - holoviews
