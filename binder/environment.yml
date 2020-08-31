@@ -1,17 +1,17 @@
 channels:
   - conda-forge
 dependencies:
-  - intake
-  - intake-xarray
-  - xarray
-  - zarr
-  - fsspec
+  - python=3.7*
+  - pangeo-notebook=2020.08.24
+  - pip=20
+  - fsspec=0.7.4
+  - s3fs=0.4.2
+  - conda-forge/label/h5py_dev::h5py
   - h5netcdf
   - matplotlib
   - holoviews
-  - geoviews
+  - geoviews-core
+  - pandas
   - datashader
   - hvplot
   - panel
-  - requests
-  - pandas
