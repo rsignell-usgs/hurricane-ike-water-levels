@@ -6,6 +6,7 @@ dependencies:
   - matplotlib
   - geoviews
   - datashader
+  - dask-gateway
   - hvplot
   - panel
   - requests
