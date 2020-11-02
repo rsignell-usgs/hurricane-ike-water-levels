@@ -11,11 +11,11 @@ dependencies:
   - panel
   - requests
   - pandas
-  - xarray
   - nbgitpuller
-  - zarr
   - git
   - pip
   - pip:
     - git+https://github.com/dask/s3fs.git
     - git+https://github.com/intake/filesystem_spec.git
+    - git+https://github.com/zarr-developers/zarr-python.git
+    - git+https://github.com/pydata/xarray.git
