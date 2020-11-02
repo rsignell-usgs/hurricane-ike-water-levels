@@ -1,6 +1,5 @@
 #!/bin/bash
-set -euo pipefail
-
 # labextensions
+jupyter serverextension enable --py nbgitpuller --sys-prefix
 jupyter labextension install @pyviz/jupyterlab_pyviz \
                              jupyter-leaflet
