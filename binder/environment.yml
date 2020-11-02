@@ -1,21 +1,18 @@
 channels:
   - conda-forge
+  - defaults
 dependencies:
-  - intake
-  - intake-xarray
-  - fsspec
-  - s3fs
-  - conda-forge/label/h5py_dev::h5py
   - h5netcdf
   - matplotlib
-  - holoviews
   - geoviews
   - datashader
   - hvplot
   - panel
   - requests
   - pandas
+  - xarray
+  - zarr
   - pip
   - pip:
-    - git+https://github.com/ajelenak/xarray.git@zarr-chunkstore
-    - git+https://github.com/HDFGroup/zarr-python.git@hdf5
+    - git+https://github.com/dask/s3fs.git
+    - git+https://github.com/intake/filesystem_spec.git
