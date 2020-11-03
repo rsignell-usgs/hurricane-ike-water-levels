@@ -1,7 +1,7 @@
 #!/bin/bash
-# labextensions
+# extensions
 jupyter serverextension enable --py nbgitpuller --sys-prefix
 jupyter labextension install @pyviz/jupyterlab_pyviz \
-                             jupyter-leaflet
+                             @jupyter-widgets/jupyterlab-manager
 conda remove --force fsspec
 pip install git+https://github.com/intake/filesystem_spec.git
