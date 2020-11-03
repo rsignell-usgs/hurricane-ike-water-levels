@@ -7,6 +7,7 @@ dependencies:
   - geoviews
   - datashader
   - dask-gateway
+  - dask-labextension
   - hvplot
   - panel
   - requests
