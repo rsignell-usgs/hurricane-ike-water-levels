@@ -2,20 +2,20 @@ sources:
   ike-hdf5:
     driver: intake_xarray.xzarr.ZarrSource
     description: 'Hurricane Ike simulation in NetCDF4/HDF5 format'
-	args:
+    args:
       storage_options:
         ref_storage_args:
           anon: true
         references: "s3://hdf5-zarr/adcirc_01d.nc.chunkstore/.zmetadata"
         target_options:
           requester_pays: true
-        target_protocol: s3
-      urlpath: "reference://"
-	
+          target_protocol: s3
+        urlpath: "reference://"
+
   ike-zarr:
     driver: zarr
-	description: "Hurricane Ike simulation in Zarr format"
-	args:
+    description: "Hurricane Ike simulation in Zarr format"
+    args:
       urlpath: s3://pangeo-data-uswest2/esip/adcirc/ike
       consolidated: True
       storage_options:
