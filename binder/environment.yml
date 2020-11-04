@@ -8,6 +8,8 @@ dependencies:
   - git
   - h5netcdf
   - hvplot
+  - intake
+  - intake-xarray
   - nbgitpuller
   - panel
   - pip
@@ -16,5 +18,4 @@ dependencies:
   - zarr
   - pip:
     - git+https://github.com/dask/s3fs.git
-    - git+https://github.com/intake/intake.git
 # add fsspec from master in postBuild, because adding it here doesn't work, as modern pip doesn't clobber conda packages, and some package here has it as a dependency
