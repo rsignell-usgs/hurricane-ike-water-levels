@@ -10,14 +10,14 @@ sources:
         target_options:
           requester_pays: true
           target_protocol: s3
-        urlpath: "reference://"
+      urlpath: "reference://"
 
   ike-zarr:
     driver: zarr
     description: "Hurricane Ike simulation in Zarr format"
     args:
       urlpath: s3://pangeo-data-uswest2/esip/adcirc/ike
-      consolidated: True
+      consolidated: False
       storage_options:
         requester_pays: True
      
