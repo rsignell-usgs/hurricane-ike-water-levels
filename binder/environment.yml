@@ -11,7 +11,6 @@ dependencies:
   - intake
   - intake-xarray
   - nbgitpuller
-  - panel
   - pip
   - requests
   - xarray
