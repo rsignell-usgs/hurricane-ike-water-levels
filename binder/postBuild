@@ -6,3 +6,5 @@ jupyter labextension install @pyviz/jupyterlab_pyviz \
                              dask-labextension
 conda remove --force fsspec
 pip install git+https://github.com/intake/filesystem_spec.git
+conda remove --force xarray
+pip install git+https://github.com/pydata/xarray.git
