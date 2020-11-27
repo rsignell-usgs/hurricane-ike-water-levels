@@ -8,8 +8,8 @@ dependencies:
   - git
   - h5netcdf
   - hvplot
-  - intake
   - intake-xarray
+  - intake
   - nbgitpuller
   - pip
   - requests
