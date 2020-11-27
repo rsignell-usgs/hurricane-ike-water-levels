@@ -1,8 +1,0 @@
-#!/bin/bash
-# extensions
-jupyter serverextension enable --py nbgitpuller --sys-prefix
-jupyter labextension install @pyviz/jupyterlab_pyviz \
-                             @jupyter-widgets/jupyterlab-manager \
-                             dask-labextension
-conda remove --force fsspec
-pip install git+https://github.com/intake/filesystem_spec.git
