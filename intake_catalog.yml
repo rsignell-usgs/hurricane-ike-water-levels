@@ -5,7 +5,7 @@ sources:
     args:
       storage_options:
         ref_storage_args:
-          anon: true
+          requester_pays: true
         references: "s3://pangeo-data-uswest2/esip/adcirc/adcirc_01d_offsets.json"
         target_options:
           requester_pays: true
@@ -17,7 +17,7 @@ sources:
     description: "Hurricane Ike simulation in Zarr format"
     args:
       urlpath: s3://pangeo-data-uswest2/esip/adcirc/adcirc_01d
-      consolidated: False
+      consolidated: false
       storage_options:
-        requester_pays: True
+        requester_pays: true
      
