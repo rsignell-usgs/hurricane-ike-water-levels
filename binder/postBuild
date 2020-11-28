@@ -1,10 +1,7 @@
 #!/bin/bash
 # extensions
+conda install nbgitpuller -y
 jupyter serverextension enable --py nbgitpuller --sys-prefix
 jupyter labextension install @pyviz/jupyterlab_pyviz \
                              @jupyter-widgets/jupyterlab-manager \
                              dask-labextension
-conda uninstall fsspec --force
-pip install git+https://github.com/intake/filesystem_spec.git
-conda uninstall intake --force
-pip install git+https://github.com/intake/intake.git
