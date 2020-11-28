@@ -2,20 +2,21 @@ channels:
   - conda-forge
   - defaults
 dependencies:
-  - dask-gateway
-  - dask-labextension
-  - datashader
-  - geoviews
-  - git
-  - h5netcdf
-  - hvplot
-  - intake-xarray
-  - intake
-  - nbgitpuller
-  - pip
-  - requests
+  - python=3.7
   - xarray
+  - fsspec
   - zarr
+  - s3fs
+  - dask
+  - ipython
+  - intake
+  - intake-xarray
+  - h5netcdf
+  - geoviews
+  - datashader
+  - hvplot
+  - pip
   - pip:
-    - git+https://github.com/dask/s3fs.git
+      - "git+https://github.com/intake/filesystem_spec"
+      - "git+https://github.com/dask/s3fs"
 # add fsspec from master in postBuild, because adding it here doesn't work, as modern pip doesn't clobber conda packages, and some package here has it as a dependency
